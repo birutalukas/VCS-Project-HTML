@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>ZOOM Page</title>
+
+		<!-- Font Awesome Icons -->
+		<script src="https://kit.fontawesome.com/c22b7541a4.js" crossorigin="anonymous"></script>
+		
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap&subset=latin-ext" rel="stylesheet">
+		
+		<!-- Main styles -->
+		<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+	</head>
+	<body>
+		<!-- BRAND AND NAVIGATION STARTS -->
+		<header>
+			<div class="container flex-container nav-bar">
+				<div class="logo">
+					<a href="#">
+						<img src="assets/images/logo.png" alt="Brand logo">
+					</a>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#home" class="btn--nav btn--nav__active">Home</a></li>
+						<li><a href="#services" class="btn--nav">Services</a></li>
+						<li><a href="#portfolio" class="btn--nav">Portfolio</a></li>
+						<li><a href="#about" class="btn--nav">About</a></li>
+						<li><a href="#contact" class="btn--nav">Contact</a></li>
+					</ul>
+				</nav>
+				<div id="burger">	<!-- MOBILE NAVIGATION STARTS -->
+					<input type="checkbox">
+					<span></span>
+					<span></span>
+					<span></span>
+					<div id="burger--menu">
+						<ul>
+							<li><a href="#home" class="btn--nav">Home</a></li>
+							<li><a href="#services" class="btn--nav">Services</a></li>
+							<li><a href="#portfolio" class="btn--nav">Portfolio</a></li>
+							<li><a href="#about" class="btn--nav">About</a></li>
+							<li><a href="#contact" class="btn--nav">Contact</a></li>
+						</ul>
+					</div>
+				</div>	<!-- MOBILE NAVIGATION ENDS -->						
+			</div>
+		</header>
+		<!-- BRAND AND NAVIGATION ENDS -->
+
+		<!-- MAIN COVER STARTS -->
+		<section id="home" class="hero">
+			<h1>Try Design, You'll like it !</h1>
+			<a class="btn__red" href="#try-it">Show me then !!!</a>
+		</section> 
+		<!-- MAIN COVER ENDS -->
+
+		<!-- SERVICES SECTION STARTS -->
+		<section id="services" class="container flex-container column"> 
+			<div class="flex-container">
+				<div class="services--item">
+					<div><i class="far fa-lightbulb fa-fw"></i></div>
+					<h3>Web Design</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi possimus sunt, nam dolore debitis eaque accusamus!</p>
+				</div>
+				<div class="services--item">
+					<div><i class="fas fa-pencil-alt fa-fw"></i></div>
+					<h3>Graphic Design</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, minima incidunt. Ipsa iusto porro voluptatibus doloribus quidem odio eaque a.</p>
+				</div>
+				<div class="services--item">
+					<div><i class="fas fa-desktop fa-fw"></i></div>
+					<h3>Programming</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, modi! Labore corrupti atque ex inventore eligendi?</p>
+				</div>
+				<div class="services--item">
+					<div><i class="fas fa-camera fa-fw"></i></div>
+					<h3>Photography</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, modi! Labore corrupti atque ex inventore eligendi?</p>
+				</div>
+			</div>
+			<div class="flex-container center">
+				<a href="#contact" class="btn__red">Need service?</a>
+			</div>
+		</section>
+		<!-- SERVICES SECTIONS ENDS -->
+
+		<!-- ADD SECTION STARTS -->
+		<section class="gradient__red" id="try-it">
+			<div class="container heading">
+				<h2>The design that likes to say yes.</h2>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique officia veniam autem dolores et animi dolore dignissimos, ut illum ea? Odit velit accusamus suscipit, vitae veritatis voluptatum deleniti dolorum unde!</p>
+			</div>
+			<div class="flex-container">
+				<img src="assets/images/browser.png" alt="Browser Add" class="browser-add">
+			</div>
+		</section>
+		<section class="phone-add__positioning">
+			<div class="container flex-container__small phone-add center">
+				<div>
+					<img src="assets/images/phones.png" alt="Phone Add">
+				</div>
+				<div class="heading__dark">
+					<h2>Fully responsive</h2>
+					<a href="#" class="btn__red">Order me one !</a>
+				</div>
+			</div>
+		</section>
+		<!-- ADD SECTION ENDS -->
+
+		<!-- PORTFOLIO SECTION STARTS -->
+		<section id="portfolio" class="green">
+			<div class="container">
+				<!-- PORTFOLIO NAVIGATION STARTS -->
+				<div class="container heading">
+					<h2>The design that likes to say yes.</h2>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique officia veniam autem dolores et animi dolore dignissimos, ut illum ea? Odit velit accusamus suscipit, vitae veritatis voluptatum deleniti dolorum unde!</p>
+				</div>
+				<div class="container flex-container portfolio-nav">
+					<button class="btn-portfolio btn-portfolio__active" data-category="all">all</button>
+					<button class="btn-portfolio" data-category="web">web</button>
+					<button class="btn-portfolio" data-category="photography">photography</button>
+					<button class="btn-portfolio" data-category="design">graphic design</button>
+				</div>
+				<!-- PORTFOLIO NAVIGATION ENDS -->
+			
+				<!-- PORTFOLIO CONTENT STARTS -->
+				<div class="flex-container portfolio hidden">
+					<div class="portfolio--item design" data-category="design">
+						<div class="portfolio-photo">
+							<img src="assets/images/web_design.jpg" alt="web design">
+						</div>
+						<div class="portfolio-content">
+							<h3>web design</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minima a incidunt. Natus eveniet quae fugit.</p>
+						</div>
+					</div>
+					<div class="portfolio--item photography" data-category="photography">
+						<div class="portfolio-photo">
+							<img src="assets/images/web_design.jpg" alt="photography">
+						</div>
+						<div class="portfolio-content">
+							<h3>photography</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minima a incidunt. Natus eveniet quae fugit.</p>
+						</div>
+					</div>
+					<div class="portfolio--item web" data-category="web">
+						<div class="portfolio-photo">
+							<img src="assets/images/web_design.jpg" alt="programming">
+						</div>
+						<div class="portfolio-content">
+							<h3>programming</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minima a incidunt. Natus eveniet quae fugit.</p>
+						</div>
+					</div>
+					<div class="portfolio--item design" data-category="design">
+						<div class="portfolio-photo">
+							<img src="assets/images/web_design.jpg" alt="web design">
+						</div>
+						<div class="portfolio-content">
+							<h3>web design</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minima a incidunt. Natus eveniet quae fugit.</p>
+						</div>
+					</div>
+					<div class="portfolio--item photography" data-category="photography">
+						<div class="portfolio-photo">
+							<img src="assets/images/web_design.jpg" alt="photography">
+						</div>
+						<div class="portfolio-content">
+							<h3>photography</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minima a incidunt. Natus eveniet quae fugit.</p>
+						</div>
+					</div>
+					<div class="portfolio--item web" data-category="web">
+						<div class="portfolio-photo">
+							<img src="assets/images/web_design.jpg" alt="programming">
+						</div>
+						<div class="portfolio-content">
+							<h3>programming</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minima a incidunt. Natus eveniet quae fugit.</p>
+						</div>
+					</div>
+					<div class="portfolio--item design" data-category="design">
+						<div class="portfolio-photo">
+							<img src="assets/images/web_design.jpg" alt="web design">
+						</div>
+						<div class="portfolio-content">
+							<h3>web design</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minima a incidunt. Natus eveniet quae fugit.</p>
+						</div>
+					</div>
+					<div class="portfolio--item photography" data-category="photography">
+						<div class="portfolio-photo">
+							<img src="assets/images/web_design.jpg" alt="photography">
+						</div>
+						<div class="portfolio-content">
+							<h3>photography</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minima a incidunt. Natus eveniet quae fugit.</p>
+						</div>
+					</div>
+					<div class="portfolio--item web" data-category="web">
+						<div class="portfolio-photo">
+							<img src="assets/images/web_design.jpg" alt="programming">
+						</div>
+						<div class="portfolio-content">
+							<h3>programming</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minima a incidunt. Natus eveniet quae fugit.</p>
+						</div>
+					</div>
+					<div class="portfolio--item design" data-category="design">
+						<div class="portfolio-photo">
+							<img src="assets/images/web_design.jpg" alt="web design">
+						</div>
+						<div class="portfolio-content">
+							<h3>web design</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minima a incidunt. Natus eveniet quae fugit.</p>
+						</div>
+					</div>
+					<div class="portfolio--item photography" data-category="photography">
+						<div class="portfolio-photo">
+							<img src="assets/images/web_design.jpg" alt="photography">
+						</div>
+						<div class="portfolio-content">
+							<h3>photography</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minima a incidunt. Natus eveniet quae fugit.</p>
+						</div>
+					</div>
+					<div class="portfolio--item web" data-category="web">
+						<div class="portfolio-photo">
+							<img src="assets/images/web_design.jpg" alt="programming">
+						</div>
+						<div class="portfolio-content">
+							<h3>programming</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minima a incidunt. Natus eveniet quae fugit.</p>
+						</div>
+					</div>				
+				</div>
+				<!-- PORTFOLIO CONTENT ENDS -->
+
+				<!-- PORTFOLIO EXPANDER STARTS -->
+				<div class="flex-container center portfolio">
+					<button id="expander" class="rotate">
+						<i class="fas fa-arrow-alt-circle-down"></i>
+					</button>
+				</div>
+				<!-- PORTFOLIO EXPANDER ENDS -->
+			</div>
+		</section>
+		<!-- PORTFOLIO SECTION ENDS -->
+
+		<!-- STATISTICS SECTION STARTS -->
+		<section class="dark">
+			<div class="container flex-container center">
+				<div class="statistics--item">
+					<i class="fas fa-briefcase"></i>						
+					<h3>2093</h3>
+					<p>completed projects</p>
+				</div>
+				<div class="statistics--item">
+					<i class="fas fa-mouse"></i>						
+					<h3>9 134 835</h3>
+					<p>click pressed</p>
+				</div>
+				<div class="statistics--item">
+					<i class="far fa-envelope-open"></i>
+					<h3>7143</h3>
+					<p>mails sent & received</p>
+				</div>
+				<div class="statistics--item">
+					<i class="fas fa-comment-dots"></i>						
+					<h3>427</h3>
+					<p>jokes told</p>
+				</div>
+			</div>
+		</section>
+		<!-- STATISTICS SECTION ENDS-->
+		
+		<!-- TEAM SECTION STARTS -->
+		<section>
+			<div class="container flex-container">
+				<div class="container heading__dark">
+					<h2>Behold the Power of Team</h2>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique officia veniam autem dolores et animi dolore dignissimos, ut illum ea? Odit velit accusamus suscipit, vitae veritatis voluptatum deleniti dolorum unde!</p>
+				</div>
+			</div>
+			<div class="container flex-container center team">
+				<div class="team--item">
+					<div class="team--photo">
+						<img src="assets/images/team.jpg" alt="web design">
+					</div>
+					<div class="team--content">
+						<h3>John Doe</h3>
+						<h4>Graphic designer</h4>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minima a incidunt. Natus eveniet quae fugit.</p>
+					</div>
+				</div>
+				<div class="team--item">
+					<div class="team--photo">
+						<img src="assets/images/team.jpg" alt="photography">
+					</div>
+					<div class="team--content">
+						<h3>John Doe</h3>
+						<h4>Graphic designer</h4>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minima a incidunt. Natus eveniet quae fugit.</p>
+					</div>
+				</div>
+				<div class="team--item">
+					<div class="team--photo">
+						<img src="assets/images/team.jpg" alt="programming">
+					</div>
+					<div class="team--content">
+						<h3>John Doe</h3>
+						<h4>Graphic designer</h4>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minima a incidunt. Natus eveniet quae fugit.</p>
+					</div>
+				</div>
+				<div class="team--item">
+					<div class="team--photo">
+						<img src="assets/images/team.jpg" alt="web design">
+					</div>
+					<div class="team--content">
+						<h3>John Doe</h3>
+						<h4>Graphic designer</h4>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minima a incidunt. Natus eveniet quae fugit.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- TEAM SECTION ENDS -->
+
+		<!-- QUOTES STARTS -->
+		<section class="gradient__red">
+			<div class="container heading">
+				<i class=" dark fas fa-quote-right"></i>
+			</div>
+			<div class="container owl-carousel owl-theme">
+				<div>
+					<div class="flex-container__col heading__small center">
+						<h2>We realise and actualise Your vision.</h2>
+						<h4>John Deo CEO</h4>
+					</div>
+				</div>
+				<div>
+					<div class="flex-container__col heading__small center">
+						<h2>We realise and actualise Your vision.</h2>
+						<h4>Mark Leo CEO</h4>
+					</div>
+				</div>
+				<div>
+					<div class="flex-container__col heading__small center">
+						<h2>We realise and actualise Your vision.</h2>
+						<h4>Mac Baren CEO</h4>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- QUOTES ENDS -->
+
+		<!-- SUBSCRIBE STARTS -->
+		<section class="dark">
+			<div class="container flex-container__col center newsletter heading__small">
+				<h2>Want to hear more story subscribe for our newsletter</h2>
+				<div class="button-wrapper">	
+					<button class="subscribe">Subscribe</button>
+				</div>
+			</div>
+		</section>
+		<!-- SUBSCRIBE ENDS -->
+
+		<!-- ABOUT STARTS -->
+		<section id="about">
+			<div class="container flex-container center about">
+				<div class="about--photo">
+					<img src="assets/images/about.jpg" alt="about">
+				</div>
+				<div class="about--description">
+					<h2>About some site</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quia eos inventore repellat, dolorum facere laboriosam aut non ratione iure. Eaque harum id aliquam ea maxime beatae, maiores iusto sequi.</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis inventore at enim impedit, recusandae dolore eveniet neque, nesciunt soluta cum repellendus fugit exercitationem aliquam quam magni quia tempore reprehenderit architecto.</p>
+				</div>
+			</div>
+		</section>
+		<!-- ABOUT ENDS -->
+
+		<!-- SINGLE PRODUCT SECTION STARTS -->
+		<section class="product green">
+			<div class="container flex-container__small">
+				<div class="product product--item">
+					<img src="assets/images/phone_add.png" alt="Phone Add">
+				</div>
+				<div class="product--description">
+					<h2>Modern design</h2>
+					<h3>Responsive Design</h3>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas praesentium repellendus pariatur ut asperiores doloremque accusamus, molestiae sequi laboriosam suscipit, reiciendis placeat mollitia minus aliquid ab nisi quia nobis voluptates.</p>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore sapiente animi aut necessitatibus at distinctio!</p>
+				</div>
+			</div>
+		</section>
+		<!-- SINGLE PRODUCT SECTION ENDS -->
+
+		<!-- TESTIMONIALS STARTS -->
+		<section class="container quotes">
+			<div class="container heading__dark center">
+				<h2>What clients say</h2>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique officia veniam autem dolores et animi dolore dignissimos, ut illum ea? Odit velit accusamus suscipit, vitae veritatis voluptatum deleniti dolorum unde!</p>
+			</div>
+			<div class="container flex-container center">
+				<div class="quotes--item">
+					<h3>John Doe</h3>
+					<h4>Graphic designer</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minima a incidunt. Natus eveniet quae fugit. Natus eveniet quae fugit. Natus eveniet quae fugit.</p>
+				</div>
+				<div class="quotes--item">
+					<h3>John Doe</h3>
+					<h4>Graphic designer</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minima a incidunt. Natus eveniet quae fugit. Natus eveniet quae fugit. Natus eveniet quae fugit.</p>
+				</div>
+				<div class="quotes--item">
+					<h3>John Doe</h3>
+					<h4>Graphic designer</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minima a incidunt. Natus eveniet quae fugit. Natus eveniet quae fugit. Natus eveniet quae fugit.</p>
+				</div>
+			</div>
+		</section>
+		<!-- TESTIMONIALS ENDS -->
+
+		<!-- CONTACT US STARTS -->
+		<section id="contact"	class="gradient__red">
+			<div class="container contact">
+				<div class="container heading center">
+					<h2>Contact us</h2>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique officia veniam autem dolores et animi dolore dignissimos, ut illum ea? Odit velit accusamus suscipit, vitae veritatis voluptatum deleniti dolorum unde!</p>
+				</div>
+				<form>
+					<div class="container flex-container__small contact-form">
+						<div class="contact-form__half">
+							<label for="name"></label>
+							<input class="half" type="text" id="name" placeholder="Your name here">
+						</div>
+						<div class="contact-form__half">
+							<label for="email"></label>
+							<input class="half" type="email" id="email" placeholder="Your email here">
+						</div>
+					</div>
+					<div class="container flex-container__small">
+						<label for="message"></label>
+						<textarea rows="1" id="message" placeholder="Your message here"></textarea>
+					</div>
+					<div class="container flex-container__small align__right">
+						<button type="submit" class="submit">Send message</button>
+					</div>
+				</form>
+			</div>
+		</section>
+		<!-- CONTACT US ENDS -->
+
+		<!-- ADDRESS SECTION STARTS -->
+		<section class="blue">
+			<div class="container flex-container align__right">
+				<div class="address-block">
+					<h4>Awesome address 345</h4>
+					<h4>
+						<a href="mailto:yourmail@mail.com">yourmail@mail.com</a>
+					</h4>
+					<h4>
+						<a href="phone:+34534433454">+345 344 33454</a>
+					</h4>
+				</div>
+			</div>
+		</section>
+		<!-- ADDRESS SECTION ENDS -->
+
+		<!-- FOOTER STARTS -->
+		<footer>
+			<h5> &copy; 2017 - <span>Zoom</span> All Rights Reserved</h5>
+		</footer>
+		<!-- FOOTER ENDS -->
+
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.2.0.min.js"></script> 
+		
+		<!-- Plug-in's -->
+		<script src="assets/scripts/scrollspy.js"></script>
+		<script src="assets/scripts/owl.carousel.min.js"></script>
+		
+		<!-- Custom JS -->
+		<script src="assets/scripts/custom.js"></script>
+	</body>
+
+</html>
